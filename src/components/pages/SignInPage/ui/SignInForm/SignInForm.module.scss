@@ -1,0 +1,22 @@
+.form {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 6px 18px rgba(11,20,26,.05);
+
+  input {
+    border-color: #000;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

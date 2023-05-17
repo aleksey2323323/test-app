@@ -1,0 +1,8 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  height: 100%;
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 0 6px 18px rgba(11,20,26,.05);
+}

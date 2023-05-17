@@ -1,0 +1,53 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-weight: 500;
+  margin: 10px 0;
+
+  span {
+    margin-bottom: 10px;
+  }
+}
+
+.textarea {
+  min-height: 100px;
+  border: 1px solid rgba(#000, .1);
+  border-radius: 2px;
+  padding: 12px;
+  resize: vertical;
+  outline: none;
+  transition: 400ms;
+
+  &:focus {
+    border-color: #000;
+  }
+}
+
+.input {
+  height: 45px;
+  padding: 0 12px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: 400ms;
+  outline: none;
+
+  &:focus {
+    border-color: #000;
+  }
+
+  &.errorInput {
+    border-color: red;
+
+    &::placeholder {
+      color: red;
+    }
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
